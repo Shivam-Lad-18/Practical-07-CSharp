@@ -1,0 +1,14 @@
+C:\Users\HP\source\repos\Prcatical-07-CSharp\SOLIDPrinciples\bin\Debug\net8.0\SOLIDPrinciples.exe
+C:\Users\HP\source\repos\Prcatical-07-CSharp\SOLIDPrinciples\bin\Debug\net8.0\SOLIDPrinciples.deps.json
+C:\Users\HP\source\repos\Prcatical-07-CSharp\SOLIDPrinciples\bin\Debug\net8.0\SOLIDPrinciples.runtimeconfig.json
+C:\Users\HP\source\repos\Prcatical-07-CSharp\SOLIDPrinciples\bin\Debug\net8.0\SOLIDPrinciples.dll
+C:\Users\HP\source\repos\Prcatical-07-CSharp\SOLIDPrinciples\bin\Debug\net8.0\SOLIDPrinciples.pdb
+C:\Users\HP\source\repos\Prcatical-07-CSharp\SOLIDPrinciples\obj\Debug\net8.0\SOLIDPrinciples.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\HP\source\repos\Prcatical-07-CSharp\SOLIDPrinciples\obj\Debug\net8.0\SOLIDPrinciples.AssemblyInfoInputs.cache
+C:\Users\HP\source\repos\Prcatical-07-CSharp\SOLIDPrinciples\obj\Debug\net8.0\SOLIDPrinciples.AssemblyInfo.cs
+C:\Users\HP\source\repos\Prcatical-07-CSharp\SOLIDPrinciples\obj\Debug\net8.0\SOLIDPrinciples.csproj.CoreCompileInputs.cache
+C:\Users\HP\source\repos\Prcatical-07-CSharp\SOLIDPrinciples\obj\Debug\net8.0\SOLIDPrinciples.dll
+C:\Users\HP\source\repos\Prcatical-07-CSharp\SOLIDPrinciples\obj\Debug\net8.0\refint\SOLIDPrinciples.dll
+C:\Users\HP\source\repos\Prcatical-07-CSharp\SOLIDPrinciples\obj\Debug\net8.0\SOLIDPrinciples.pdb
+C:\Users\HP\source\repos\Prcatical-07-CSharp\SOLIDPrinciples\obj\Debug\net8.0\SOLIDPrinciples.genruntimeconfig.cache
+C:\Users\HP\source\repos\Prcatical-07-CSharp\SOLIDPrinciples\obj\Debug\net8.0\ref\SOLIDPrinciples.dll
