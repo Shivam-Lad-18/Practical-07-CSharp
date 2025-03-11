@@ -1,11 +1,13 @@
 ﻿namespace SOLIDPrinciples
 {
+    // Order class for creating order object
     public class Order
     {
         public int OrderId { get; set; }
         public string CustomerEmail { get; set; }
     }
-
+    // Craeting different class for different responsibilty 
+    // OrderProcessor class to process order
     public class OrderProcessor
     {
         public void ProcessOrder(Order order)
@@ -15,6 +17,7 @@
             Console.WriteLine("\tOrder processed.\n");
         }
     }
+    // ReceiptPrinter class to print receipt
     public class ReceiptPrinter
     {
         public void PrintReceipt(Order order)

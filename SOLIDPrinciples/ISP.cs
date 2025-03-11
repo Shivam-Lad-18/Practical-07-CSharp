@@ -1,4 +1,5 @@
-﻿public interface IWorkable
+﻿// Different Interfaces for different type of action
+public interface IWorkable
 {
     void Work();
 }
@@ -10,6 +11,7 @@ public interface ISleepable
 {
     void Sleep();
 }
+// FullTimeEmployee class implementing all the interfaces
 public class FullTimeEmployee : IWorkable, IEatable, ISleepable
 {
     public void Work()
@@ -27,6 +29,7 @@ public class FullTimeEmployee : IWorkable, IEatable, ISleepable
         Console.WriteLine("\tFull-time employee sleeping.");
     }
 }
+// RobotWorker class implementing only IWorkable interface
 public class RobotWorker : IWorkable
 {
     public void Work()

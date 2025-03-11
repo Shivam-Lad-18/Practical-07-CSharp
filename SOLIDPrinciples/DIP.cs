@@ -1,7 +1,9 @@
-﻿public interface ILogger
+﻿// Interface ILogger to define a contract for logging
+public interface ILogger
 {
     void Log(string message);
 }
+// ConsoleLogger class implementing ILogger interface
 public class ConsoleLogger : ILogger
 {
     public void Log(string message)
@@ -9,6 +11,7 @@ public class ConsoleLogger : ILogger
         Console.WriteLine("\t"+message);
     }
 }
+// FileLogger class implementing ILogger interface
 public class FileLogger : ILogger
 {
     public void Log(string message)
@@ -17,8 +20,10 @@ public class FileLogger : ILogger
         Console.WriteLine($"\tLog to file: {message}");
     }
 }
+// Application class to demonstrate Dependency Inversion Principle
 public class Application
 {
+    // ILogger reference object to log messages
     private readonly ILogger logger;
 
     // Dependency injection via constructor

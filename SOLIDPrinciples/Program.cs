@@ -4,15 +4,16 @@ class Program
 {
     static void Main(string[] args)
     {
-        Order order = new Order() { OrderId = 396898 , CustomerEmail="example@eg.com"};
+        // Demonstartion Single Responsibilty Principle
         Console.WriteLine(" Single Responsibilty Principle : \n");
+        Order order = new Order() { OrderId = 396898 , CustomerEmail="example@eg.com"};
         var orderProcessor = new OrderProcessor();
         orderProcessor.ProcessOrder(order);
 
         var receiptPrinter = new ReceiptPrinter();
         receiptPrinter.PrintReceipt(order);
 
-
+        // Demonstartion Open Close Principle
         Console.WriteLine("\n\n Open Close Principle : \n");
         double totalAmount = 1000;
 
@@ -28,7 +29,7 @@ class Program
         var goldCalculator = new DiscountCalculator(new GoldCustomerDiscount());
         Console.WriteLine($"\tGold Customer Discount: {goldCalculator.CalculateDiscount(totalAmount)}");
 
-
+        // Demonstartion Liskov Substitution Principle
         Console.WriteLine("\n\n Liskov Substitution Principle : \n");
         Shape rectangle = new Rectangle { Width = 5, Height = 10 };
         Console.WriteLine("\tRectangle Area: " + rectangle.GetArea()); // Output: 50
@@ -36,6 +37,7 @@ class Program
         Shape square = new Square { Side = 5 };
         Console.WriteLine("\tSquare Area: " + square.GetArea());
 
+        // Demonstartion Interface Segregation Principle
         Console.WriteLine("\n\n Interface Segregation Principle : \n");
         var employee = new FullTimeEmployee();
         employee.Eat();
@@ -44,6 +46,7 @@ class Program
         var robot = new RobotWorker();
         robot.Work();
 
+        // Demonstartion Dependency Inversion Principle
         Console.WriteLine("\n\n Dependency Inversion Principle : \n");
         ILogger consoleLogger = new ConsoleLogger();
         Application app1 = new Application(consoleLogger);
